@@ -1,0 +1,32 @@
+#header {
+    background-color: #FFF;  
+}
+#title {
+    padding-top: 1em;
+    background: #FFF;
+}
+#menu {
+    background-color: cadetblue;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 105%;
+    margin-left: -24px;
+}
+#rightColumn {
+    display: none;
+}
+#leftColumn {
+    display: none;
+}
+#content {
+    margin: 0em;
+    background: #FFF;
+    width: 98%;
+    height: 100%;
+}
+#dojo-slideshow {
+    height: 25.5em !important;
+}
+#slideshow-desc {
+ 
+}

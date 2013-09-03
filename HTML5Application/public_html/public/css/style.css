@@ -1,0 +1,127 @@
+body {
+    color: black;
+    background-color: cadetblue;
+    margin:0;
+    padding:0;
+    border:0;			
+    width:100%;
+    min-width:600px;		
+    font-size:90%;
+}
+#header {
+    color: blue;
+    display:block;
+    text-align:center;
+}
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    color: brown;
+    font-family: fantasy;
+    padding-bottom: 1em;
+}
+#rightColumn, #leftColumn, #content, #footer {
+
+}
+.clearFloat {
+    visibility: hidden;
+    display: none;   
+    position:relative;	
+    clear:both;
+    width:100%;			
+    overflow:hidden;
+}
+#footer {  
+    color: blue;   
+    background-color: darkcyan;
+    margin: 0;
+    padding:10px;
+    clear: both;
+}
+#credits {
+    text-align: left;
+    float: left;
+}
+#footer-menu {
+    text-align: right;
+    float: right;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: brown;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: brown;
+}
+ul, li {
+    text-align: left;
+    list-style: none;
+}
+.btn, .btn:link {
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    border-radius: 5px ;
+    color: #FFF;   
+}
+.btn:visited {
+    color: #FFF;
+    font-weight: bold;
+}
+.btn:hover {
+    border: 2px solid #08088A;
+    color: #585858;
+    border-width: 2px;
+    border-color: #81BEF7;
+    font-weight: bold;
+}
+.btn:focus {
+    font-weight: bold;
+}
+.btn:active {
+    border: 2px solid #08088A;
+    color: #585858;
+    font-weight: bold;
+
+}
+
+/* Sets the style for links. */
+a, a:link {
+    color: #08088A;
+    position: relative;
+}
+/* Sets the style for visited links. */
+a:visited {
+    color: #819FF7;
+    text-decoration: underline;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+    color: #819FF7;
+    text-decoration: underline;
+    animation: seMueve 250ms;   
+    -webkit-animation:seMueve 250ms;
+}
+
+@Keyframes seMueve {
+    from{left:0em} to {left:1em}
+}
+
+@-webkit-keyframes seMueve /* Safari and Chrome */
+{
+    from{left:0em} to {left:1em}
+}
+
+/* Sets the style for a link that has focus. */
+a:focus {
+
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+    color: #08088A;
+}

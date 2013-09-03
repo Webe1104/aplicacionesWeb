@@ -1,0 +1,42 @@
+#header {
+     background-color: darkcyan;
+     display: block;
+}
+#title {
+    background-color: darkcyan;
+}
+#menu {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 105%;
+}
+#rightColumn {
+    background-color: #FFF;
+    float: right;
+    width: 21%;
+    height: 45em;
+}
+#leftColumn {
+    background-color: #FFF;
+    float: left;
+    width: 21%;
+    height: 45em; 
+    clear: initial;
+    position: relative;
+}
+#content {
+    background-color: #FFF;
+    background-size: 20em 12em;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    clear: initial;
+    position: relative;
+    
+}
+#dojo-slideshow {
+    height: 25.5em !important;
+}
+#slideshow-desc {
+    
+}
