@@ -1,0 +1,36 @@
+body{
+    
+}
+#outerWrapper{
+}
+#title{
+    
+}
+#header{
+}
+#menu{
+    
+}
+#contentWrapper{
+}
+#content{
+    font-size: 1.7em !important;
+}
+#rightColumn{
+    padding-top: .5em !important;
+    font-size: 1.25em !important;
+    height: 33.5em;
+}
+#footer{
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+    font-size: 2em;
+}
+#image{
+    width: 85%;
+    height: 37%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}

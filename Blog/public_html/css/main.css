@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+body{
+    font-family: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://cdn.wallwuzz.com/uploads/vector-patterns-picture-wallpapers-image-array-wallwuzz-hd-wallpaper-7822.jpg');
+    position: absolute;    
+}
+#outerWrapper{
+
+
+    width: 66%;
+    margin: 0 auto;
+}
+#title{
+    color: #FFF;
+    background-color: #20B2AA;
+    font-size: 4em;
+    font-family: Book Antiqua;
+    padding: 5px 2px;
+    width: 100%;
+}
+#header{
+    padding: 3%;
+    background-color: #20B2AA;
+
+}
+#menu{
+    height: 1.2em;
+    background-color: #FFF;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+#contentWrapper{
+    background-color: #000033;
+    opacity: .7;
+}
+#content{
+    padding: 2em;
+    width: 60%;
+    color: #FFF;
+    font-size: 1.3em;
+}
+#rightColumn{
+    color: #FFF;
+    font-size: 1.3em;
+    padding: 1.5em;
+    padding-top: 3em;
+    padding-right: 2em;     
+    float: right;
+    width: 25%;
+    background-color: #08088A;
+    opacity: 50;
+}
+#footer{
+    height: 1.2em
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/* Sets the style for links. */
+a, a:link {
+    color: #08088A;
+    position: relative;
+}
+/* Sets the style for visited links. */
+a:visited {
+    color: #819FF7;
+    text-decoration: underline;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+    color: #819FF7;
+    text-decoration: underline;
+    animation: seMueve 250ms;   
+    -webkit-animation:seMueve 250ms;
+}
+
+@Keyframes seMueve {
+    from{left:0em} to {left:1em}
+}
+
+@-webkit-keyframes seMueve /* Safari and Chrome */
+{
+    from{left:0em} to {left:1em}
+}
+
+/* Sets the style for a link that has focus. */
+a:focus {
+
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+    color: #08088A;
+}

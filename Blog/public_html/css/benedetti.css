@@ -1,0 +1,37 @@
+body{
+    
+}
+#outerWrapper{
+}
+#title{
+    
+}
+#header{
+}
+#menu{
+    
+}
+#contentWrapper{
+}
+#content{
+    font-size: 1.5em;
+}
+#rightColumn{
+    padding-top: .5em !important;
+    font-size: 1.4em !important;
+    height: 35.6em;
+    
+}
+#footer{
+    
+}
+h1, h2, h3, h4, h5, h6 {
+ color: tomato; 
+ font-size: 2em;
+}
+#image{
+    width: 80%;
+    height: 40%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
